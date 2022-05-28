@@ -22,7 +22,7 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-require_once( __DIR__ .'/locallib.php');
+require_once( __DIR__ .'/ajax_functions.php');
 
 $entityBody = file_get_contents('php://input');
 
