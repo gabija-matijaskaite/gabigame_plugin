@@ -62,8 +62,10 @@ $string['gamenotavailable'] = 'The game will not be available until {$a}';
 $string['gameclosed'] = 'This game closed on {$a}';
 $string['gameopenedon'] = 'This game opened at {$a}';
 $string['gamecloseson'] = 'This game will close at {$a}';
-$string[ 'yourfinalgradeis'] = 'Your final grade for this game is {$a}.';
-$string[ 'comment'] = 'Comment';
+$string['yourfinalgradeis'] = 'Your final grade for this game is {$a}.';
+$string['comment'] = 'Comment';
+$string['world'] = 'WORLD';
+$string['level'] = 'Level';
 
 //File db/access.php
 $string['gabigame:addinstance'] = 'Add a new game';
