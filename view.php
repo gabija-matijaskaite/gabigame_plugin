@@ -244,7 +244,7 @@ function gabigame_create_attempt_table($OUTPUT, $gabigame, $attempts, $course, $
         $level = substr($code, 1, 2);
         $color = gabigame_set_header_color($world);
         echo $OUTPUT->heading('___________________________________');
-        echo $OUTPUT->heading('<span style="color:#'.$color.';font-weight:bold">WORLD '.$world.'</span> - Level <span style="font-weight:bold">'.$level."</span>");
+        echo $OUTPUT->heading('<span style="color:#'.$color.';font-weight:bold">'.get_string('world', 'gabigame').' '.$world.'</span> - '.get_string('level', 'gabigame').' <span style="font-weight:bold">'.$level."</span>");
 
         // Prepare table header.
         $table = new html_table();
